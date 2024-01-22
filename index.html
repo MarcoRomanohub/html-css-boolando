@@ -4,14 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boolando</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header></header>
+  <header>
+    <div class="topbar container d-flex">
+      <div class="categorie d-flex">
+        <div>Donna</div>
+        <div>Uomo</div>
+        <div>Bambini</div>
+      </div>
+      <div class="logo"><img src="img/boolean-logo.png" alt=""></div>
+      <div class="area-personale">
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-sharp fa-solid fa-bag-shopping"></i>        
+      </div>
+    </div>
+  </header>
 
   <main>
-    <div class="container">
+    <div class="container d-flex">
       <!-- PRIMO PRODOTTO -->
       <div class="box-product">
         <div class="first-img">
@@ -23,8 +38,8 @@
         <div class="marchio">Levi's</div>
         <h4>RELAXED FIT TEE UNISEX</h4>
         <div class="price">14,99 € <span>29,99 €</span></div>
-        <div class="discount zindex1">-50%</div>
-        <div class="sostenibile zindex1">Sostenibilità</div>
+        <div class="discount">-50%</div>
+        <div class="sostenibile">Sostenibilità</div>
         <div class="heart">&hearts;</div>
       </div>
       <!-- SECONDO PRODOTTO -->
@@ -38,7 +53,7 @@
         <span class="marchio">Guess</span>
         <h4>ROSES TEE</h4>
         <div class="price">20,99 € <span>29,99 €</span></div>
-        <div class="discount zindex1">-30%</div>
+        <div class="discount">-30%</div>
         <div class="heart">&hearts;</div>
       </div>
       <!-- TERZO PRODOTTO -->
@@ -52,11 +67,11 @@
         <span class="marchio">Come Zucchero Filato</span>
         <h4>VOGLIA DI COLORI PASTELLO</h4>
         <div class="price">129,99 € <span>184,99 €</span></div>
-        <div class="discount zindex1">-30%</div>
+        <div class="discount">-30%</div>
         <div class="heart">&hearts;</div>
       </div>
     </div>
-    <div class="container">
+    <div class="container d-flex">
       <!-- QUARTO PRODOTTO -->
       <div class="box-product">
         <div class="first-img">
@@ -68,8 +83,8 @@
         <div class="marchio">Levi's</div>
         <h4>TEE UNISEX</h4>
         <div class="price">14,99 € <span>29,99 €</span></div>
-        <div class="discount zindex1">-50%</div>
-        <div class="sostenibile zindex1">Sostenibilità</div>
+        <div class="discount">-50%</div>
+        <div class="sostenibile">Sostenibilità</div>
         <div class="heart">&hearts;</div>
       </div>
       <!-- QUINTO PRODOTTO -->
@@ -96,14 +111,35 @@
         <span class="marchio">Esprit</span>
         <h4>MAGLIONE - BLACK</h4>
         <div class="price">129,99 €</div>
-        <div class="sostenibile zindex1 left0">Sostenibilità</div>
+        <div class="sostenibile left0">Sostenibilità</div>
         <div class="heart">&hearts;</div>
       </div>
     </div>
   </main>
         
 
-  <footer></footer>
+  <footer>
+    <div class="bottom-bar container d-flex">
+      <div class="informazioni">
+        <h5>Boolando s.r.l</h5>
+        <div>
+          <span>Informazioni legali</span>
+          <span>Informativa sulla privacy</span>
+          <span>Diritto di recesso</span>
+        </div>
+      </div>
+      <div class="social">
+        <h6>Trovaci anche su</h6>
+        <div>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-pinterest"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+  </div>
+  </footer>
   
 </body>
 </html>
